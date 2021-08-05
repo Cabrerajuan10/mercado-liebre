@@ -1,0 +1,73 @@
+header{
+    background-color:var(--colorAmarillo) ;
+    padding-bottom: 20px;
+}
+
+header div img{
+    width: 40%;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+    
+}
+
+header .buscar_texto{
+    width: 50%;
+    margin-left: 15px;
+    height: 25px;
+    margin-bottom: 2px;
+}
+
+header .search{
+    height: 25px;
+    display: inline-block;
+    padding: 2px;
+    margin-left: 15px;
+    border-radius: 2px;    
+    border: solid 1px var(--colorGrisOscuro);
+    background-color: var(--colorBlanco);
+    color: var(--colorNegro);
+    font-size: 17px;
+    text-align: center;
+}
+
+
+header p{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+header nav .menu{
+    margin-left: 1px;
+    margin-bottom: 20px;
+}
+
+header nav .menu li a{
+    color: var(--colorNegro);
+}
+
+header nav .usuario{
+    margin-left: 1px;
+    margin-bottom: 20px;
+}
+
+header nav .usuario li a{
+    color: var(--colorNegro);
+}
+
+header nav .usuario li a i{
+    margin-left: 3px;
+}
+
+header a.btn-burguer{
+    width: 52px;
+    padding: 12px;
+    background-color:var(--colorCeleste);
+    display: block;
+    color: var(--colorGrisClaro);
+    font-size: 27px;
+    margin:auto;
+    text-align: center;
+    border-radius: 7px;
+}

@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--colorGrisClaro);
+}
+
+a{
+    text-decoration: none;
+}
+
+:root{
+    --colorAmarillo: #EAC926;
+}
+
+:root{
+    --colorAzul: #03264C;
+}
+
+:root{
+    --colorCeleste: #1259c3;
+}
+
+:root{
+    --colorGrisOscuro: #666;
+}
+
+:root{
+    --colorGrisClaro: #ebebeb;
+}
+
+:root{
+    --colorVerde: #39b54a;
+}
+
+:root{
+    --colorNegro: #000000;
+}
+
+:root{
+    --colorBlanco: #ffffff;
+}
+

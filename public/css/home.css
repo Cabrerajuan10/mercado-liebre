@@ -1,0 +1,30 @@
+main h2{
+    font-size: 24px;
+    margin: 25px 15px 0;
+    color: var(--colorGrisOscuro);
+}
+
+main article{
+    margin: 25px 15px 15px;
+    background-color: var(--colorBlanco);
+}
+
+main .descripcion p{
+    margin-left: 25px ;
+    color: var(--colorGrisOscuro);
+}
+
+main .descripcion h3{
+    margin-left: 25px;
+    color: var(--colorGrisOscuro);
+    padding-bottom: 5px;
+}
+
+main .descripcion .precio{
+    font-size: 18px;
+}
+
+main .descripcion .descuento{
+    font-size: 16px;
+}
+
