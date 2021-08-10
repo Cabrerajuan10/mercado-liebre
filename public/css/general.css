@@ -15,33 +15,11 @@ a{
 
 :root{
     --colorAmarillo: #EAC926;
-}
-
-:root{
     --colorAzul: #03264C;
-}
-
-:root{
     --colorCeleste: #1259c3;
-}
-
-:root{
     --colorGrisOscuro: #666;
-}
-
-:root{
     --colorGrisClaro: #ebebeb;
-}
-
-:root{
     --colorVerde: #39b54a;
-}
-
-:root{
     --colorNegro: #000000;
-}
-
-:root{
     --colorBlanco: #ffffff;
 }
-
