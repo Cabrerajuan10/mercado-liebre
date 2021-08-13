@@ -9,6 +9,14 @@ main article{
     background-color: var(--colorBlanco);
 }
 
+main article i{
+  color: var(--colorVerde);
+  border-radius: 50%;
+  border: 1px solid var(--colorVerde);
+  padding: 5px;
+  margin-left: 25px; 
+}
+
 main .descripcion p{
     margin-left: 25px ;
     color: var(--colorGrisOscuro);
