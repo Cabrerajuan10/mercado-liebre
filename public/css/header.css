@@ -1,3 +1,5 @@
+/*mobile*/
+
 header{
     background-color:var(--colorAmarillo) ;
     padding-bottom: 20px;
@@ -11,6 +13,10 @@ header div img{
     
 }
 
+header .buscador{
+    display: inline;
+}
+
 header .buscar_texto{
     width: 50%;
     margin-left: 15px;
@@ -18,18 +24,17 @@ header .buscar_texto{
     margin-bottom: 2px;
 }
 
-header .search{
-    height: 25px;
-    display: inline-block;
-    padding: 2px;
-    margin-left: 15px;
-    border-radius: 2px;    
-    border: solid 1px var(--colorGrisOscuro);
-    background-color: var(--colorBlanco);
-    color: var(--colorNegro);
-    font-size: 17px;
+header .search i{
     text-align: center;
+    font-size: 16px;
+    color: var(--colorNegro);
+    padding: 3px;
+    background-color: var(--colorBlanco);
+    border: 1px solid var(--colorGrisOscuro);
 }
+
+
+
 
 
 header p{
@@ -40,8 +45,9 @@ header p{
 }
 
 header nav .menu{
-    margin-left: 1px;
+    margin-left: 5px;
     margin-bottom: 20px;
+    display: none;
 }
 
 header nav .menu li a{
@@ -50,8 +56,9 @@ header nav .menu li a{
 }
 
 header nav .usuario{
-    margin-left: 1px;
+    margin-left: 5px;
     margin-bottom: 20px;
+    display: none;
 }
 
 header nav .usuario li a{
@@ -73,4 +80,19 @@ header a.btn-burguer{
     margin:auto;
     text-align: center;
     border-radius: 7px;
+}
+
+@media (min-width: 361px){
+    header nav .menu{
+        display: block;
+    }
+    header nav .usuario{
+        display: block;
+    }
+    header a.btn-burguer{
+        display: none;
+    }
+    header{
+        box-shadow : 0px 0px 10px rgb ( 100 , 100 , 100 );
+    }
 }
