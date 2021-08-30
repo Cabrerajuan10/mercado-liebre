@@ -12,10 +12,17 @@
 
 <body>
     <header>
-        <div><img src="/images/logo-mercado-liebre.svg" alt=""></div>
-        <div class="buscador"><input type="text" class="buscar_texto" placeholder="Buscar productos, marcas"></div>
-        <a class="search" href=""><i class="fas fa-search"></i></a>
-        <p><i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjeta de crédito</p>
+        <div>
+        <div class="search">
+            <div class="logo"><img src="/images/logo-mercado-liebre.svg" alt=""></div>
+            <div class="barra-buscador">
+                <div class="barra"><input type="text" class="buscar_texto" placeholder="Buscar productos, marcas"></div>
+                <button><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+
+        <p class="compra"><i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjeta de crédito</p>
+        </div>
         <nav>
             <ul class="menu">
                 <li><a href="">Ofertas</a></li>
@@ -29,21 +36,26 @@
                 <li><a href="">Ingresá<i class="fas fa-sign-in-alt"></i></a></li>
                 <li><a href="">Mis compras<i class="fas fa-shopping-basket"></i></a></li>
             </ul>
-
-            <a class="btn-burguer" href=""><i class="fas fa-bars"></i></a>
         </nav>
+        
+        <div class="menu-burguer">
+            <a class="btn-burguer" href=""><i class="fas fa-bars"></i></a>
+        </div>
+               
     </header>
     <img width="100%" src="/images/img-home-banner.jpg" alt="">
 
-    <main>
+    <main class="home">
         <section>
             <h2>Basado en tu ultima visita</h2>
             <article>
                 <div><img width="100%" src="/images/img-cafetera-moulinex.jpg" alt=""></div>
                 <div class="descripcion">
                     <i class="fas fa-truck"></i>
-                    <p class="precio">$6.770</p>
-                    <p class="descuento">40% OFF</p>
+                    <div class="precio-descuento">
+                        <p class="precio">$6.770</p>
+                        <p class="descuento">40% OFF</p>
+                    </div>
                     <h3>Cafetera Moulinex</h3>
                 </div>
             </article>
@@ -52,8 +64,10 @@
                 <div><img width="100%" src="/images/img-macbook-pro-2019.jpg" alt=""></div>
                 <div class="descripcion">
                     <i class="fas fa-truck"></i>
-                    <p class="precio">$230.000</p>
-                    <p class="descuento">20% OFF</p>
+                    <div class="precio-descuento">
+                        <p class="precio">$230.000</p>
+                        <p class="descuento">20% OFF</p>
+                    </div>
                     <h3>MacBook Pro 2019</h3>
                 </div>
             </article>
@@ -62,8 +76,10 @@
                 <div><img width="100%" src="/images/img-samsung-galaxy-s10.jpg" alt=""></div>
                 <div class="descripcion">
                     <i class="fas fa-truck"></i>
-                    <p class="precio">$70.500</p>
-                    <p class="descuento">10% OFF</p>
+                    <div class="precio-descuento">
+                        <p class="precio">$70.500</p>
+                        <p class="descuento">10% OFF</p>
+                    </div>
                     <h3>Samsung Galaxy S10</h3>
                 </div>
             </article>
@@ -72,8 +88,10 @@
                 <div><img width="100%" src="/images/img-tv-samsung-smart.jpg" alt=""></div>
                 <div class="descripcion">
                     <i class="fas fa-truck"></i>
-                    <p class="precio">$23.200</p>
-                    <p class="descuento">5% OFF</p>
+                    <div class="precio-descuento">
+                        <p class="precio">$23.200</p>
+                        <p class="descuento">5% OFF</p>
+                    </div>
                     <h3>SmartTV Samsung 43"</h3>
                 </div>
             </article>
@@ -85,8 +103,10 @@
                 <div><img width="100%" src="/images/img-cafetera-moulinex.jpg" alt=""></div>
                 <div class="descripcion">
                     <i class="fas fa-truck"></i>
-                    <p class="precio">$6.770</p>
-                    <p class="descuento">40% OFF</p>
+                    <div class="precio-descuento">
+                        <p class="precio">$6.770</p>
+                        <p class="descuento">40% OFF</p>
+                    </div>
                     <h3>Cafetera Moulinex</h3>
                 </div>
             </article>
@@ -95,8 +115,10 @@
                 <div><img width="100%" src="/images/img-macbook-pro-2019.jpg" alt=""></div>
                 <div class="descripcion">
                     <i class="fas fa-truck"></i>
-                    <p class="precio">$230.000</p>
-                    <p class="descuento">20% OFF</p>
+                    <div class="precio-descuento">
+                        <p class="precio">$230.000</p>
+                        <p class="descuento">20% OFF</p>
+                    </div>
                     <h3>MacBook Pro 2019</h3>
                 </div>
             </article>
@@ -105,8 +127,10 @@
                 <div><img width="100%" src="/images/img-samsung-galaxy-s10.jpg" alt=""></div>
                 <div class="descripcion">
                     <i class="fas fa-truck"></i>
-                    <p class="precio">$70.500</p>
-                    <p class="descuento">10% OFF</p>
+                    <div class="precio-descuento">
+                        <p class="precio">$70.500</p>
+                        <p class="descuento">10% OFF</p>
+                    </div>
                     <h3>Samsung Galaxy S10</h3>
                 </div>
             </article>
@@ -115,8 +139,10 @@
                 <div><img width="100%" src="/images/img-tv-samsung-smart.jpg" alt=""></div>
                 <div class="descripcion">
                     <i class="fas fa-truck"></i>
-                    <p class="precio">$23.200</p>
-                    <p class="descuento">5% OFF</p>
+                    <div class="precio-descuento">
+                        <p class="precio">$23.200</p>
+                        <p class="descuento">5% OFF</p>
+                    </div>
                     <h3>SmartTV Samsung 43"</h3>
                 </div>
             </article>

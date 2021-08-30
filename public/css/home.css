@@ -1,61 +1,92 @@
-main{
+.home {
     width: 90%;
-    margin: auto;
+    margin:0 auto;
 }
 
-main h2{
+.home section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.home  h2{
     font-size: 24px;
     margin: 15px 0px;
     color: var(--colorGrisOscuro);
+    width: 100%;
 }
 
-main article{
+.home  article{
     margin: 10px 0px ;
-    background-color: var(--colorBlanco);
+    background-color: var(--colorBlanco); 
 }
 
-main article .descripcion{
+.home article .descripcion{
     border-top:1px solid var(--colorGrisClaro) ;
     padding:15px;
+    position: relative;
 }
 
-main .descripcion i{
+.home .descripcion i{
   color: var(--colorVerde);
   border-radius: 50%;
   border: 1px solid var(--colorVerde);
   padding: 5px;
+  font-size: 16px;
+  width: 30px;
+  background-color: #fff;
+  display: block;
+  position: absolute;
+  right: 20px;
+  top: -15px;
 }
 
-main .descripcion p{
+.home .descripcion p{
     color: var(--colorGrisOscuro);
 }
 
-main .descripcion h3{
+.home .descripcion h3{
     padding-top: 15px;
     color: var(--colorGrisOscuro);
     display: none;
 }
 
-main .descripcion .precio{
-    font-size: 18px;
+.home section .descripcion .precio-descuento{
+    display: flex;
 }
 
-main .descripcion .descuento{
+.home .descripcion .precio{
+    font-size: 18px;
+    flex-grow: 0.3;
+}
+
+.home .descripcion .descuento{
     font-size: 16px;
     color: var(--colorVerde);
+    flex-grow: 0.7;
 }
 
 /*tablet*/
 
-@media (min-width: 361px){
-    main .descripcion h3{
+@media (min-width: 768px){
+    .home .descripcion h3{
         display: block;
     }
     
-    main article {
+    .home article {
         box-shadow: 0px 0px 10px rgb(100 100 100);
+        width: 48%;     
+    }
+   
+}
+
+/* desktop */
+@media (min-width: 1024px){
+    .home article{
+        width: 20%;
     }
 }
+
 
 
 
