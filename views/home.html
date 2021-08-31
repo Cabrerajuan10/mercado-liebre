@@ -14,10 +14,12 @@
     <header>
         <div>
         <div class="search">
-            <div class="logo"><img src="/images/logo-mercado-liebre.svg" alt=""></div>
+            <div class="logo"><a href="/"><img src="/images/logo-mercado-liebre.svg" alt=""></a></div>
             <div class="barra-buscador">
-                <div class="barra"><input type="text" class="buscar_texto" placeholder="Buscar productos, marcas"></div>
-                <button><i class="fas fa-search"></i></button>
+                <form action="">
+                    <input type="text" name="buscar" placeholder="Buscar productos, marcas">
+                    <button type="submit"><i class="fas fa-search"></i></button>
+                </form>
             </div>
         </div>
 
@@ -32,8 +34,8 @@
             </ul>
 
             <ul class="usuario">
-                <li><a href="">Creá tu cuenta<i class="far fa-address-card"></i></a></li>
-                <li><a href="">Ingresá<i class="fas fa-sign-in-alt"></i></a></li>
+                <li><a href="/register">Creá tu cuenta<i class="far fa-address-card"></i></a></li>
+                <li><a href="/login">Ingresá<i class="fas fa-sign-in-alt"></i></a></li>
                 <li><a href="">Mis compras<i class="fas fa-shopping-basket"></i></a></li>
             </ul>
         </nav>

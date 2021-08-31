@@ -19,23 +19,30 @@ header .search .logo img{
 }
 
 header .search .barra-buscador {
-    width: 48%;
-    display: flex;   
+    width: 48%;  
     align-items: center;
 }
 
-header .search .barra-buscador .barra {
-    flex-grow: 1;
+header .search .barra-buscador form{
+    display: flex;
+    width: 100%;  
 }
 
-header .search .barra-buscador .barra .buscar_texto{
+header .search .barra-buscador input{
     width: 100%;    
-    height: 25px;
+    padding: 13px;
+    border-radius: 7px 0 0 7px;
+    border: none;
+}
+
+header .barra-buscador button{
+    border: none;
+    border-radius: 0 7px 7px 0;
 }
 
 header .barra-buscador button i{ 
-    font-size: 16px;    
-    padding: 2.5px;
+    font-size: 16px;
+    padding:12.5px 6.25px;
 }
 
 header .compra{

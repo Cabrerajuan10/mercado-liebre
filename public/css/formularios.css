@@ -1,0 +1,62 @@
+/* contenedor general */
+.formularios main .contenedor{
+    width: 90%;
+    margin: 0 auto;
+    max-width: 375px;
+}
+
+/* h1 */
+.formularios main .contenedor h1{
+    padding-top: 30px;
+    text-align: center;
+}
+
+/* contenedor input */
+.formularios main .container-input{
+    display: flex;
+    margin: 20px 0;
+}
+
+/* input redio */
+.formularios main .container-input .radio{
+    margin:0 20px;
+}
+
+/* input check */
+.formularios main .container-input .check{
+    margin:0 20px;
+}
+
+/* input text*/
+.formularios main .container-input .text{
+    width: 100%;
+}
+
+
+/* inputs-botones */
+.formularios main .contenedor input , .formularios main .contenedor button{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* contenedor buttons */
+.formularios main .contenedor .box-buttons{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+}
+
+/* botones */
+.formularios main .contenedor .box-buttons .btn-registro,.btn-ingresar{
+    background-color: var(--colorCeleste);
+    color: var(--colorBlanco);
+}
+
+.formularios main .contenedor .box-buttons .btn-reseat{
+    background-color: var(--colorGrisOscuro);
+    color: var(--colorBlanco);
+}
+
+
+

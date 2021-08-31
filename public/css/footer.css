@@ -1,6 +1,6 @@
-footer{
-    background-color: var(--colorBlanco) ;
-    margin: 0 5px;
+footer {
+    background-color: var(--colorBlanco);
+    margin: 10px 5px 0;
 }
 
 footer .icon{
