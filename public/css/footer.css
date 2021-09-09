@@ -10,6 +10,11 @@ footer .icon{
     margin-bottom: 10px;
     color: var(--colorCeleste);
     font-size: 45px;
+    transition: color ease .4;
+}
+
+footer .icon:hover{
+    color: var(--colorAzul);
 }
 
 footer h4{
@@ -28,4 +33,16 @@ footer .copyrigth{
     text-align: left;
     margin-left: 10px ;
     margin-top: 30px;
+}
+
+@media(min-width:1024px){
+    footer .box-content-footer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    footer .box-content-footer div{
+        width: 33%;
+    }
 }

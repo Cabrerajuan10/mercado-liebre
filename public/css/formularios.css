@@ -48,15 +48,33 @@
 }
 
 /* botones */
-.formularios main .contenedor .box-buttons .btn-registro,.btn-ingresar{
+.formularios main .contenedor .box-buttons .btn-ingresar {
     background-color: var(--colorCeleste);
     color: var(--colorBlanco);
+    transition: background-color linear .3s;
 }
 
-.formularios main .contenedor .box-buttons .btn-reseat{
+.formularios main .contenedor .box-buttons .btn-ingresar:hover{
+    background-color: #0022AA;
+}
+
+.formularios main .contenedor .box-buttons .btn-registro {
+    background-color: var(--colorCeleste);
+    color: var(--colorBlanco);
+    transition: background-color linear .3s;
+}
+
+.formularios main .contenedor .box-buttons .btn-registro:hover{
+    background-color: #0022AA;
+}
+
+ .formularios main .contenedor .box-buttons .btn-reseat{
     background-color: var(--colorGrisOscuro);
     color: var(--colorBlanco);
 }
+
+
+
 
 
 
